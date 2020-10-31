@@ -7,7 +7,9 @@ require('http')
             'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers'
         };
         res.writeHead(200, CORS);
-        if (req.url === '/sample/') return res.end('6.8.275.32-node.55');
+        if (req.url === '/sample/') return res.end('function task(x) {\n' +
+            '    return x*x;\n' +
+            '}');
         if (req.url === '/login/') return res.end('davlet');
         res.end('test');
     })
