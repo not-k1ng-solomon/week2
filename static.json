@@ -1,8 +1,10 @@
 {
 	"headers":{
-		"/*":{
+		"/*": {
 			"X-Author": "davlet",
 			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers",
+			"Access-Control-Allow-Methods": "GET,POST,DELETE",
 			"Content-Type": "text/html; charset=utf-8"
 		}
 	}
